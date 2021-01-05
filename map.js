@@ -70,6 +70,9 @@ L.marker([36.83814, -2.45974], { icon: Andalucía })
   .addTo(sedes_andalucía)
   .bindPopup(customPopUp8);
 
+
+sedes_andalucía.addTo(map);
+
 //Crear contenido de sedes Galicia - Nº2
 var Galicia = new LeafIcon({ iconUrl: "MarcadorSede.png" });
 var customPopUp9 =
@@ -90,6 +93,8 @@ L.marker([42.23282, -8.72264], { icon: Galicia })
 L.marker([42.33669, -7.86407], { icon: Galicia })
   .addTo(sedes_Galicia)
   .bindPopup(customPopUp11);
+
+sedes_Galicia.addTo(map);
 
 //Crear contenido de sede Asturias - Nº3
 // var Asturias = new LeafIcon({ iconUrl: "MarcadorSede.png" });
@@ -113,6 +118,8 @@ L.marker([43.36029, -5.84476], { icon: asturias })
   .addTo(sedes_asturias)
   .bindPopup(customPopUp14);
 
+sedes_asturias.addTo(map);
+
 //Crear contenido de sede Cantabria - Nº4
 var Cantabria = new LeafIcon({ iconUrl: "MarcadorSede.png" });
 var customPopUp15 =
@@ -123,6 +130,8 @@ var sede_cantabria = new L.LayerGroup();
 L.marker([43.46472, -3.80444], { icon: Cantabria })
   .addTo(sede_cantabria)
   .bindPopup(customPopUp15);
+
+sede_cantabria.addTo(map);
 
 //Crear contenido de sede Euskadi- Nº5
 var Euskadi = new LeafIcon({ iconUrl: "MarcadorSede.png" });
@@ -145,6 +154,8 @@ L.marker([42.846718, -2.671635], { icon: Euskadi })
   .addTo(sede_euskadi)
   .bindPopup(customPopUp18);
 
+  sede_euskadi.addTo(map);
+
 //Crear contenido de sede Navarra - Nº6
 var Navarra = new LeafIcon({ iconUrl: "MarcadorSede.png" });
 var customPopUp19 =
@@ -155,6 +166,8 @@ var sede_navarra = new L.LayerGroup();
 L.marker([42.8233, -1.65138], { icon: Navarra })
   .addTo(sede_navarra)
   .bindPopup(customPopUp19);
+
+  sede_navarra.addTo(map);
 
 //Crear contenido de sede La Rioja- Nº7
 var LaRioja = new LeafIcon({ iconUrl: "MarcadorSede.png" });
@@ -167,6 +180,8 @@ L.marker([36.97706, -2.44373], { icon: LaRioja })
   .addTo(sede_larioja)
   .bindPopup(customPopUp20);
 
+  sede_larioja.addTo(map);
+
 //Crear contenido de sede Aragón- Nº8
 var Aragon = new LeafIcon({ iconUrl: "MarcadorSede.png" });
 var customPopUp21 =
@@ -177,6 +192,8 @@ var sede_aragon = new L.LayerGroup();
 L.marker([41.0, -1.0], { icon: Aragon })
   .addTo(sede_aragon)
   .bindPopup(customPopUp21);
+
+  sede_aragon.addTo(map);
 
 //Crear contenido de sede Cataluña- Nº9
 var Cataluña = new LeafIcon({ iconUrl: "MarcadorSede.png" });
@@ -189,6 +206,7 @@ L.marker([41.38879, 2.15899], { icon: Cataluña })
   .addTo(sede_cataluña)
   .bindPopup(customPopUp22);
 
+  sede_cataluña.addTo(map);
 //Crear contenido de sede Com.Valencia- Nº10
 var Valencia = new LeafIcon({ iconUrl: "MarcadorSede.png" });
 var customPopUp23 =
@@ -200,6 +218,7 @@ L.marker([39.4702, -0.3768], { icon: Valencia })
   .addTo(sede_valencia)
   .bindPopup(customPopUp23);
 
+  sede_valencia.addTo(map);
 //Crear contenido de sede Murcia- Nº11
 var Murcia = new LeafIcon({ iconUrl: "MarcadorSede.png" });
 var customPopUp24 =
@@ -215,6 +234,7 @@ L.marker([37.98704, -1.13004], { icon: Murcia })
   .addTo(sede_murcia)
   .bindPopup(customPopUp25);
 
+  sede_murcia.addTo(map);
 //Crear contenido de sede Extremadura- Nº12
 var extremadura = new LeafIcon({ iconUrl: "MarcadorSede.png" });
 var customPopUp26 =
@@ -235,6 +255,7 @@ L.marker([39.47649, -6.37224], { icon: Murcia })
   .addTo(sede_extremadura)
   .bindPopup(customPopUp28);
 
+  sede_extremadura.addTo(map);
 //Crear contenido de sede Castilla La Mancha- Nº13
 var lamancha = new LeafIcon({ iconUrl: "MarcadorSede.png" });
 var customPopUp29 =
@@ -255,6 +276,7 @@ L.marker([40.0718, -2.13401], { icon: lamancha })
   .addTo(sede_lamancha)
   .bindPopup(customPopUp31);
 
+  sede_lamancha.addTo(map);
 //Crear contenido de sede Castilla y León Nº14
 var castillaLeon = new LeafIcon({ iconUrl: "MarcadorSede.png" });
 var customPopUp32 =
@@ -285,6 +307,7 @@ L.marker([42.34106, -3.70184], { icon: castillaLeon })
   .addTo(sede_castillaLeon)
   .bindPopup(customPopUp36);
 
+  sede_castillaLeon.addTo(map);
 //Crear contenido de sede Baleares Nº15
 var baleares = new LeafIcon({ iconUrl: "MarcadorSede.png" });
 var customPopUp37 =
@@ -301,6 +324,7 @@ L.marker([40.0004, 3.99997], { icon: baleares })
   .addTo(sede_baleares)
   .bindPopup(customPopUp38);
 
+  sede_baleares.addTo(map);
 //Crear contenido de sede Canarias Nº16
 var canarias = new LeafIcon({ iconUrl: "MarcadorSede.png" });
 var customPopUp39 =
@@ -312,6 +336,8 @@ L.marker([28.09973, -15.41343], { icon: canarias })
   .addTo(sede_canarias)
   .bindPopup(customPopUp39);
 
+  sede_canarias.addTo(map);
+
 //Crear contenido de sede Madrid Nº17
 var madrid = new LeafIcon({ iconUrl: "MarcadorSede.png" });
 var customPopUp40 =
@@ -322,3 +348,5 @@ var sede_madrid = new L.LayerGroup();
 L.marker([28.09973, -15.41343], { icon: madrid })
   .addTo(sede_madrid)
   .bindPopup(customPopUp40);
+
+  sede_madrid.addTo(map);
