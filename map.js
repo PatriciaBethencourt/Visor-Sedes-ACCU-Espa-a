@@ -92,7 +92,8 @@ L.marker([42.33669, -7.86407], { icon: Galicia })
   .bindPopup(customPopUp11);
 
 //Crear contenido de sede Asturias - Nº3
-var Asturias = new LeafIcon({ iconUrl: "MarcadorSede.png" });
+// var Asturias = new LeafIcon({ iconUrl: "MarcadorSede.png" });
+var asturias = new LeafIcon({ iconUrl: "MarcadorSede.png" });
 var customPopUp12 =
   "Gijón<ul><li>Avenida Moreda nº11</li><li>Teléfono: 985 091 237</li><li>Persona de contacto: Concepción López Areces</li></lu>";
 var customPopUp13 =
