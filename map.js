@@ -39,14 +39,14 @@ var customPopUp8 = "Almería<ul><li>Contacto: asoc.accualmeria@gmail.com</li><li
 
 //Grupos - Sedes Andalucía
 var sedes_Andalucía = new L.LayerGroup();
-L.marker([36.72016, -4.42034], {icon: Andalucía}).addTo(sedes_andalucía).bindPopUp(customPopUp1);
-L.marker([37.76922, 37.76922], {icon: Andalucía}).addTo(sedes_andalucía).bindPopUp(customPopUp2);
-L.marker([37.18817, -3.60667], {icon: Andalucía}).addTo(sedes_andalucía).bindPopUp(customPopUp3);
-L.marker([37.89155, -4.77275], {icon: Andalucía}).addTo(sedes_andalucía).bindPopUp(customPopUp4);
-L.marker([36.137741, -5.345374], {icon: Andalucía}).addTo(sedes_andalucía).bindPopUp(customPopUp5);
-L.marker([36.5299, -6.29241], {icon: Andalucía}).addTo(sedes_andalucía).bindPopUp(customPopUp6);
-L.marker([37.26638, -6.94004], {icon: Andalucía}).addTo(sedes_andalucía).bindPopUp(customPopUp7);
-L.marker([36.83814, -2.45974], {icon: Andalucía}).addTo(sedes_andalucía).bindPopUp(customPopUp8);
+L.marker([36.72016, -4.42034], {icon: Andalucía}).addTo(sedes_andalucía).bindPopup(customPopUp1);
+L.marker([37.76922, 37.76922], {icon: Andalucía}).addTo(sedes_andalucía).bindPopup(customPopUp2);
+L.marker([37.18817, -3.60667], {icon: Andalucía}).addTo(sedes_andalucía).bindPopup(customPopUp3);
+L.marker([37.89155, -4.77275], {icon: Andalucía}).addTo(sedes_andalucía).bindPopup(customPopUp4);
+L.marker([36.137741, -5.345374], {icon: Andalucía}).addTo(sedes_andalucía).bindPopup(customPopUp5);
+L.marker([36.5299, -6.29241], {icon: Andalucía}).addTo(sedes_andalucía).bindPopup(customPopUp6);
+L.marker([37.26638, -6.94004], {icon: Andalucía}).addTo(sedes_andalucía).bindPopup(customPopUp7);
+L.marker([36.83814, -2.45974], {icon: Andalucía}).addTo(sedes_andalucía).bindPopup(customPopUp8);
 
 
 //Crear contenido de sedes Galicia - Nº2
@@ -57,9 +57,9 @@ var customPopUp11 = "Ourense<ul><li>Calle Escultos Navas Parejo, Edificio Caroli
 
 //Grupos - Sedes Galicia
 var sedes_Galicia = new L.LayerGroup();
-L.marker([43.37135, -8.396],{icon: Galicia}).addTo(sedes_galicia).bindPopUp(customPopUp9);
-L.marker([42.23282, -8.72264],{icon: Galicia}).addTo(sedes_Galicia).bindPopUp(customPopUp10);
-L.marker([42.33669, -7.86407],{icon: Galicia}).addTo(sedes_Galicia).bindPopUp(customPopUp11);
+L.marker([43.37135, -8.396],{icon: Galicia}).addTo(sedes_galicia).bindPopup(customPopUp9);
+L.marker([42.23282, -8.72264],{icon: Galicia}).addTo(sedes_Galicia).bindPopup(customPopUp10);
+L.marker([42.33669, -7.86407],{icon: Galicia}).addTo(sedes_Galicia).bindPopup(customPopUp11);
 
 
 //Crear contenido de sede Asturias - Nº3
@@ -70,9 +70,9 @@ var customPopUp14 = "Oviedo<ul><li>Avenida Roma nº4</li><li>Persona de contacto
 
 //Grupos - Sedes Asturias
 var sedes_asturias = new L.LayerGroup();
-L.marker([43.53573, -5.66152], {icon: asturias}).addTo(sedes_asturias).bindPopUp(customPopUp12);
-L.marker([43.5558, -5.92762], {icon: asturias}).addTo(sedes_asturias).bindPopUp(customPopUp13);
-L.marker([43.36029, -5.84476], {icon: asturias}).addTo(sedes_asturias).bindPopUp(customPopUp14);
+L.marker([43.53573, -5.66152], {icon: asturias}).addTo(sedes_asturias).bindPopup(customPopUp12);
+L.marker([43.5558, -5.92762], {icon: asturias}).addTo(sedes_asturias).bindPopup(customPopUp13);
+L.marker([43.36029, -5.84476], {icon: asturias}).addTo(sedes_asturias).bindPopup(customPopUp14);
 
 
 //Crear contenido de sede Cantabria - Nº4
@@ -81,7 +81,7 @@ var customPopUp15 = "Santander<ul><li>Avda Cardenal Herrera Oria, nº63 Interior
 
 //Grupos - Sede Cantabria
 var sede_cantabria = new L.LayerGroup();
-L.marker([43.46472, -3.80444], {icon: Cantabria}).addTo(sede_cantabria).bindPopUp(customPopUp15);
+L.marker([43.46472, -3.80444], {icon: Cantabria}).addTo(sede_cantabria).bindPopup(customPopUp15);
 
 
 //Crear contenido de sede Euskadi- Nº5
@@ -93,9 +93,9 @@ var customPopUp18 = "Álava<ul><li>Calle Pintor Vicente Abreu nº7 bajo</li><li>
 
 //Grupos - Sede Euskadi
 var sede_euskadi = new L.LayerGroup();
-L.marker([43.2918100, -1.9885100], {icon: Euskadi}).addTo(sede_euskadi).bindPopUp(customPopUp16);
-L.marker([43.257, -2.92344], {icon: Euskadi}).addTo(sede_euskadi).bindPopUp(customPopUp17);
-L.marker([42.846718, -2.671635], {icon: Euskadi}).addTo(sede_euskadi).bindPopUp(customPopUp18);
+L.marker([43.2918100, -1.9885100], {icon: Euskadi}).addTo(sede_euskadi).bindPopup(customPopUp16);
+L.marker([43.257, -2.92344], {icon: Euskadi}).addTo(sede_euskadi).bindPopup(customPopUp17);
+L.marker([42.846718, -2.671635], {icon: Euskadi}).addTo(sede_euskadi).bindPopup(customPopUp18);
 
 
 //Crear contenido de sede Navarra - Nº6
@@ -104,7 +104,7 @@ var customPopUp19 = "Pamplona<ul><li>Calle Mendigorria, nº12 Bajo</li><li>Telé
 
 //Grupos - Sede Navarra
 var sede_navarra = new L.LayerGroup();
-L.marker([42.8233000, -1.6513800], {icon: Navarra}).addTo(sede_navarra).bindPopUp(customPopUp19);
+L.marker([42.8233000, -1.6513800], {icon: Navarra}).addTo(sede_navarra).bindPopup(customPopUp19);
 
 
 //Crear contenido de sede La Rioja- Nº7
@@ -113,7 +113,7 @@ var customPopUp20 = "Logroño<ul><li>Casa de las Asociaciones, Parque de San Ant
 
 //Grupos - Sede La Rioja
 var sede_larioja = new L.LayerGroup();
-L.marker([36.9770600, -2.4437300], {icon: LaRioja}).addTo(sede_larioja).bindPopUp(customPopUp20);
+L.marker([36.9770600, -2.4437300], {icon: LaRioja}).addTo(sede_larioja).bindPopup(customPopUp20);
 
 
 //Crear contenido de sede Aragón- Nº8
@@ -122,7 +122,7 @@ var customPopUp21 = "Zaragoza<ul><li>Plaza Nuestra Señora del Pilar nº16, Cent
 
 //Grupos - Sede Aragón
 var sede_aragon = new L.LayerGroup();
-L.marker([41.0000000, -1.0000000], {icon: Aragon}).addTo(sede_aragon).bindPopUp(customPopUp21);
+L.marker([41.0000000, -1.0000000], {icon: Aragon}).addTo(sede_aragon).bindPopup(customPopUp21);
 
 
 
@@ -132,7 +132,7 @@ var customPopUp22 = "Barcelona<ul><li>Calle Pere Vergés, nº1, planta 9, despac
 
 //Grupos - Sede Cataluña
 var sede_cataluña = new L.LayerGroup();
-L.marker([41.38879, 2.15899], {icon: Cataluña}).addTo(sede_cataluña).bindPopUp(customPopUp22);
+L.marker([41.38879, 2.15899], {icon: Cataluña}).addTo(sede_cataluña).bindPopup(customPopUp22);
 
 //Crear contenido de sede Com.Valencia- Nº10
 var Valencia = new LeafIcon({iconUrl: 'MarcadorSede.png'})
@@ -140,7 +140,7 @@ var customPopUp23 = "Valencia<ul><li>Calle Conde de Altea nº 31, 1º Puerta 2ª
 
 //Grupos - Sede Valencia
 var sede_valencia = new L.LayerGroup();
-L.marker([39.4702, -0.37680], {icon: Valencia}).addTo(sede_valencia).bindPopUp(customPopUp23);
+L.marker([39.4702, -0.37680], {icon: Valencia}).addTo(sede_valencia).bindPopup(customPopUp23);
 
 //Crear contenido de sede Murcia- Nº11
 var Murcia = new LeafIcon({iconUrl: 'MarcadorSede.png'})
@@ -148,8 +148,8 @@ var customPopUp24 = "Cartagena<ul><li>accucartagena@gmail.com</li><li>Teléfono:
 var customPopUp25 = "Murcia<ul><li>Calle Alberto  Sevilla, 7 Bl.1 Esc. 7</li><li>Teléfono: 601 300 512</li><li>Persona de contacto:Esperanza Navarro Pastor</li></ul>";
 //Grupos - Sede Murcia
 var sede_murcia = new L.LayerGroup();
-L.marker([37.6142, -0.995], {icon: Murcia}).addTo(sede_murcia).bindPopUp(customPopUp24);
-L.marker([37.98704 , -1.13004], {icon: Murcia}).addTo(sede_murcia).bindPopUp(customPopUp25);
+L.marker([37.6142, -0.995], {icon: Murcia}).addTo(sede_murcia).bindPopup(customPopUp24);
+L.marker([37.98704 , -1.13004], {icon: Murcia}).addTo(sede_murcia).bindPopup(customPopUp25);
 
 
 //Crear contenido de sede Extremadura- Nº12
@@ -159,9 +159,9 @@ var customPopUp27 = "Mérida<ul><li>Calle Atarazanas, nº25</li><li>Teléfono: 9
 var customPopUp28 = "Cáceres<ul><li>Edificio Valhondo, Planta 2ª, Despacho 5, Av. de la Universidad</li><li>Teléfono: 927 762 545</li><li>Persona de contacto: Mª Luisa Rodríguez Pozo</li></ul>";
 //Grupos - Sede extremadura
 var sede_extremadura = new L.LayerGroup();
-L.marker([38.8786, -6.97028], {icon: extremadura}).addTo(sede_extremadura).bindPopUp(customPopUp26);
-L.marker([38.91611 , -6.34366], {icon: Murcia}).addTo(sede_extremadura).bindPopUp(customPopUp27);
-L.marker([39.47649, -6.37224], {icon: Murcia}).addTo(sede_extremadura).bindPopUp(customPopUp28);
+L.marker([38.8786, -6.97028], {icon: extremadura}).addTo(sede_extremadura).bindPopup(customPopUp26);
+L.marker([38.91611 , -6.34366], {icon: Murcia}).addTo(sede_extremadura).bindPopup(customPopUp27);
+L.marker([39.47649, -6.37224], {icon: Murcia}).addTo(sede_extremadura).bindPopup(customPopUp28);
 
 
 //Crear contenido de sede Castilla La Mancha- Nº13
@@ -171,9 +171,9 @@ var customPopUp30 = "Albacete<ul><li>Calle Dr. Fleming, nº12  - 1ª Planta</li>
 var customPopUp31 = "Cuenca<ul><li>accucuenca@gmail.com</li><li>Teléfono: 699 704 707</li><li>Persona de contacto: Juana Madrigal Baena</li></ul>";
 //Grupos - Sede Castilla La Mancha
 var sede_lamancha = new L.LayerGroup();
-L.marker([39.8568, -4.02448], {icon: lamancha}).addTo(sede_lamancha).bindPopUp(customPopUp29);
-L.marker([38.99424,-1.85643], {icon: lamancha}).addTo(sede_lamancha).bindPopUp(customPopUp30);
-L.marker([40.0718, -2.13401], {icon: lamancha}).addTo(sede_lamancha).bindPopUp(customPopUp31);
+L.marker([39.8568, -4.02448], {icon: lamancha}).addTo(sede_lamancha).bindPopup(customPopUp29);
+L.marker([38.99424,-1.85643], {icon: lamancha}).addTo(sede_lamancha).bindPopup(customPopUp30);
+L.marker([40.0718, -2.13401], {icon: lamancha}).addTo(sede_lamancha).bindPopup(customPopUp31);
 
 	  
 //Crear contenido de sede Castilla y León Nº14
@@ -185,11 +185,11 @@ var customPopUp35 = "Salamanca<ul><li>Calle Gran Capitán, nº53-57</li><li>Tel�
 var customPopUp36 = "Burgos<ul><li>Calle Jerez, nº13</li><li>Teléfono: 629 284 052</li><li>Persona de contacto: Bernardo López Ureta</li></ul>";
 //Grupos - Sede Castilla y León
 var sede_castillaLeon = new L.LayerGroup();
-L.marker([42.60003, -5.57032], {icon: castillaLeon}).addTo(sede_castillaLeon).bindPopUp(customPopUp32);
-L.marker([41.5033,-5.74628], {icon: castillaLeon}).addTo(sede_castillaLeon).bindPopUp(customPopUp33);
-L.marker([41.6529, -4.72839], {icon: castillaLeon}).addTo(sede_castillaLeon).bindPopUp(customPopUp34);
-L.marker([40.96882, -5.66388], {icon: castillaLeon}).addTo(sede_castillaLeon).bindPopUp(customPopUp35);
-L.marker([42.34106, -3.70184], {icon: castillaLeon}).addTo(sede_castillaLeon).bindPopUp(customPopUp36);
+L.marker([42.60003, -5.57032], {icon: castillaLeon}).addTo(sede_castillaLeon).bindPopup(customPopUp32);
+L.marker([41.5033,-5.74628], {icon: castillaLeon}).addTo(sede_castillaLeon).bindPopup(customPopUp33);
+L.marker([41.6529, -4.72839], {icon: castillaLeon}).addTo(sede_castillaLeon).bindPopup(customPopUp34);
+L.marker([40.96882, -5.66388], {icon: castillaLeon}).addTo(sede_castillaLeon).bindPopup(customPopUp35);
+L.marker([42.34106, -3.70184], {icon: castillaLeon}).addTo(sede_castillaLeon).bindPopup(customPopUp36);
 
 
 	  
@@ -200,8 +200,8 @@ var customPopUp38 = "Menorca<ul><li>Cami de Ses Vinyes, nº84-1º</li><li>Teléf
 
 //Grupos - Sede baleares
 var sede_baleares = new L.LayerGroup();
-L.marker([39.56939, 2.65024], {icon: baleares}).addTo(sede_baleares).bindPopUp(customPopUp37);
-L.marker([40.0004000, 3.9999700], {icon: baleares}).addTo(sede_baleares).bindPopUp(customPopUp38);
+L.marker([39.56939, 2.65024], {icon: baleares}).addTo(sede_baleares).bindPopup(customPopUp37);
+L.marker([40.0004000, 3.9999700], {icon: baleares}).addTo(sede_baleares).bindPopup(customPopUp38);
 
 
 //Crear contenido de sede Canarias Nº16
@@ -211,7 +211,7 @@ var customPopUp39 = "Gran Canaria<ul><li>Calle Exterior - Local 7 Parque Urb. de
 
 //Grupos - Sede canarias
 var sede_canarias = new L.LayerGroup();
-L.marker([28.09973, -15.41343], {icon: canarias}).addTo(sede_canarias).bindPopUp(customPopUp39);
+L.marker([28.09973, -15.41343], {icon: canarias}).addTo(sede_canarias).bindPopup(customPopUp39);
 
 
 //Crear contenido de sede Madrid Nº17
@@ -221,7 +221,7 @@ var customPopUp40 = "Madrid<ul><li>Calle Carretas, nº14, 4ºE</li><li>Teléfono
 
 //Grupos - Sede madrid
 var sede_madrid = new L.LayerGroup();
-L.marker([28.09973, -15.41343], {icon: madrid}).addTo(sede_madrid).bindPopUp(customPopUp40);
+L.marker([28.09973, -15.41343], {icon: madrid}).addTo(sede_madrid).bindPopup(customPopUp40);
 
 
  
