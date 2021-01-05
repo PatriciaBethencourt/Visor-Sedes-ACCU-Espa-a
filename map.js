@@ -43,7 +43,8 @@ var customPopUp8 =
   "Almería<ul><li>Contacto: asoc.accualmeria@gmail.com</li><li>Teléfono: 622 206 768<li>Persona de contacto: Javier González Rodrigo</li></ul>";
 
 //Grupos - Sedes Andalucía
-var sedes_Andalucía = new L.LayerGroup();
+//var sedes_Andalucía = new L.LayerGroup();
+var sedes_andalucía = new L.LayerGroup();
 L.marker([36.72016, -4.42034], { icon: Andalucía })
   .addTo(sedes_andalucía)
   .bindPopup(customPopUp1);
