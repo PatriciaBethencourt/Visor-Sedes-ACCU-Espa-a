@@ -82,7 +82,7 @@ var customPopUp11 =
 //Grupos - Sedes Galicia
 var sedes_Galicia = new L.LayerGroup();
 L.marker([43.37135, -8.396], { icon: Galicia })
-  .addTo(sedes_galicia)
+  .addTo(sedes_Galicia)
   .bindPopup(customPopUp9);
 L.marker([42.23282, -8.72264], { icon: Galicia })
   .addTo(sedes_Galicia)
